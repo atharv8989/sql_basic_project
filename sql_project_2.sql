@@ -45,7 +45,7 @@ select * from Bookss
 where genre ='Fantasy' and price>3;
 
 select
-	genre, sum(price) as po 
+	genre, sum(price) as total_price
 from Bookss
 group by 1;
 
